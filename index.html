@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KVY Services LLC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>KVY Services LLC</h1>
+        <h2>We Can Do Anything</h2>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#media">Our Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <p>Welcome to KVY Services LLC, your trusted general contractor. We specialize in:</p>
+            <ul>
+                <li>Electrical</li>
+                <li>Painting</li>
+                <li>Drywall</li>
+                <li>Flooring</li>
+            </ul>
+            <ul>
+                <li>Roofing</li>
+                <li>Fencing</li>
+                <li>Plumbing</li>
+                <li>HVAC</li>
+            </ul>
+        </section>
+
+        <!-- Media Section -->
+        <section id="media">
+            <h3>Our Work</h3>
+            <!-- Image Carousel -->
+            <div class="carousel">
+                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                <div class="slides">
+                    <div class="slide" style="background-image: url('images/rr.jpeg');"></div>
+                    <div class="slide" style="background-image: url('images/pp.HEIC');"></div>
+                    <div class="slide" style="background-image: url('images/logo.heic');"></div>
+                </div>
+                <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h3>Contact Us</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <h3>Contact Us</h3>
+        <p>Mario Young</p>
+        <p>Phone: 504-559-6814 | 985-618-0010</p>
+        <p>Email: <a href="mailto:Yalonzo@ymail.com">Yalonzo@ymail.com</a></p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
